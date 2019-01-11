@@ -56,7 +56,6 @@
 
 <script>
 import '../public/js/site.js';
-import '../public/js/demo4.js';
 
 export default {
   computed: {
