@@ -7,7 +7,7 @@ module.exports = {
     search: false,
     sidebar: false,
     head:[
-      //['script', {src: '/js/jquery-3.1.1.min.js'}],
+      ['script', {src: '/js/jquery-3.1.1.min.js'}],
       ['script', {src: '/js/demo4.js'}]
     ],
     nav: [
