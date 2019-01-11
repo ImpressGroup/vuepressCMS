@@ -8,6 +8,8 @@ module.exports = {
     sidebar: false,
     head:[
       ['script', {src: '/js/jquery-3.1.1.min.js'}],
+      ['script', {src: '/js/anime.min.js'}],
+      ['script', {src: '/js/imagesloaded.pkgd.min.js'}],
       ['script', {src: '/js/demo4.js'}]
     ],
     nav: [

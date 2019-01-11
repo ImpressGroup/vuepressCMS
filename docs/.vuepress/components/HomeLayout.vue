@@ -229,7 +229,7 @@ function(a){a=P(a);for(var c=v.length;c--;)for(var d=v[c],b=d.animations,f=b.len
             });
         }
         navigate(dir = 'next') {
-            console.log(222);
+             console.log("home");
             if ( this.isAnimating ) return false;
             this.isAnimating = true;
 
