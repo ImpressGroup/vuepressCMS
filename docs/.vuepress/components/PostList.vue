@@ -19,7 +19,7 @@
 </div>
 </template>
 <script>
-@import '/js/category.js'
+@import '../public/js/category.js'
 export default {
   computed: {
     posts() {
