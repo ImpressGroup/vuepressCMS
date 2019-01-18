@@ -26,7 +26,7 @@
 //import jsdom from 'jsdom';
 //import $ from 'jquery';
 //var jsdom = require("jsdom"); 
-// import $ from 'jquery'
+import $ from 'jquery'
 // window.$ = $
 // window.jQuery = $
 

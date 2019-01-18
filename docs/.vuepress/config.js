@@ -1,3 +1,4 @@
+const webpack = require('webpack');
 module.exports = {
   title: '滑雪饭 Skier',
   description: '大人孩子同乐乐，奉上最热的滑雪信息、玩转各大滑雪胜地、实战装备全攻略！ 北海道、长野等日本滑雪之旅的人气路线一网打尽~顺便泡泡温泉也不错!',
@@ -12,6 +13,15 @@ module.exports = {
     ['script', {src: '/js/demo4.js'}],
     ['script', {src: '/js/bootstrap.min.js'}]
   ],
+  configureWebpack: {
+    plugins: [
+      new webpack.ProvidePlugin({
+        $:"jquery",
+        jQuery:"jquery",
+        "windows.jQuery":"jquery"
+      })
+    ]
+  },
   themeConfig: {
     docsDir: 'docs',
     //repo: 'ImpressGroup/vuepressCMS',
