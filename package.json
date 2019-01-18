@@ -5,5 +5,11 @@
   },
   "devDependencies": {
     "vuepress": "^0.9.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "jquery": "^3.3.1",
+    "jsdom": "^13.1.0",
+    "popper.js": "^1.14.6"
   }
 }

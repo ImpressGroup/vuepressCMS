@@ -1,7 +1,3 @@
-p
-  line-height: 1.5
-  margin: 0
-  padding: 0
 
 h2{border: none;}
 
@@ -19,34 +15,10 @@ h2.slide__title
   p
     padding-top: 15px
 
-/*Common*/
-for row in 10 20 30 40 50
-  .mb{row}
-    margin-bottom: 1px * row!important
-  .pb{row}
-    padding-bottom: 1px * row!important
-
-for row1 in 12 14 16 18 20 22 24 26 28 30 40 60
-  .size{row1}
-    font-size: 1px * row1
-
-.text-center
-  text-align: center
-
-.color-white
-  color: #FFF;
-
-.blue-btn
-  diaplay: table
-  padding: 40px
-  background-color: #132E98
-  color: #FFF
-  border-radius: 8px
-
-.m-center
-  display: table
-  margin-left: auto
-  margin-right: auto
+/*Nav*/
+.nav-link
+  padding: 0; 
+  color: #000;
 
 .content-box
   width: 66.66%
@@ -60,10 +32,14 @@ for row1 in 12 14 16 18 20 22 24 26 28 30 40 60
     width: 50%
     padding: 0 20px
     float: left
+    display: table
+    .box-caption
+      display: table-cell; 
+      vertical-align: middle; 
     &::before
       border-left: 22px solid transparent
       border-right: 22px solid transparent
-      border-bottom: 22px solid #CCC
+      border-bottom: 22px solid #EEE
       content: ''
       display: block
       height: 0
@@ -71,13 +47,14 @@ for row1 in 12 14 16 18 20 22 24 26 28 30 40 60
       position: absolute
       top: -22px; left: 0; right: 0;
       width: 0
+      
 .content-box:nth-child(3n+1)
   .box-txt
     &::before
       border-top: 22px solid transparent
       border-left: none
       border-bottom: 22px solid transparent
-      border-right: 22px solid #CCC
+      border-right: 22px solid #EEE
       left: -22px
       top: 0
       bottom: 0
@@ -94,7 +71,7 @@ for row1 in 12 14 16 18 20 22 24 26 28 30 40 60
       border-left: 22px solid transparent
       border-top: none
       border-right: 22px solid transparent
-      border-bottom: 22px solid #CCC
+      border-bottom: 22px solid #EEE
       left: 0
       top: -22px
       bottom: initial
@@ -109,7 +86,7 @@ for row1 in 12 14 16 18 20 22 24 26 28 30 40 60
       border-bottom: 22px solid transparent
       border-right: none
       border-top: 22px solid transparent
-      border-left: 22px solid #CCC
+      border-left: 22px solid #EEE
       left: initial 
       top: 0
       bottom: 0
@@ -155,7 +132,7 @@ for row1 in 12 14 16 18 20 22 24 26 28 30 40 60
         border-top: 22px solid transparent
         border-left: none
         border-bottom: 22px solid transparent
-        border-right: 22px solid #CCC
+        border-right: 22px solid #EEE
         left: -22px
         top: 0
         bottom: 0
@@ -170,7 +147,7 @@ for row1 in 12 14 16 18 20 22 24 26 28 30 40 60
       float: left
       &::before
         border-top: 22px solid transparent
-        border-left: 22px solid #CCC
+        border-left: 22px solid #EEE
         border-bottom: 22px solid transparent
         border-right: none
         left: initial 
@@ -189,7 +166,7 @@ for row1 in 12 14 16 18 20 22 24 26 28 30 40 60
         border-left: 22px solid transparent
         border-right: 22px solid transparent
         border-top: none
-        border-bottom: 22px solid #CCC
+        border-bottom: 22px solid #EEE
         left: 0
         top: -22px
         bottom: initial

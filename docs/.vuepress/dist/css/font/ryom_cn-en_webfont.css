@@ -1,0 +1,25 @@
+/*2015.04.27ver*/
+
+/* ::::::::::::::::::::::::::::Sans-serif:::::::::::::::::::::::::::::::::::::::: */
+/**********************no load fonts********************************************
+@font-face
+{
+font-family: RyomCN-sanserif-bo;
+src: url('library/images/ryom-cus/jp-webfontset/NotoSansCJKsc-Bold-l.woff') format("woff");
+font-weight: 700;
+}
+
+@font-face
+{
+font-family: RyomCN-sanserif-re;
+src: url('library/images/ryom-cus/jp-webfontset/NotoSansCJKsc-Regular-l.woff') format("woff");
+font-weight: 500;
+}
+****************************************************************************************/
+
+@font-face
+{
+font-family: RyomCN-sanserif-li;
+src: url('library/images/ryom-cus/jp-webfontset/NotoSansCJKsc-Light-l.woff') format("woff");
+font-weight: 400;
+}
